@@ -10,10 +10,8 @@
 
 @interface MyTubeAppDelegate : NSObject <NSApplicationDelegate> {
     NSWindow *window;
-    IBOutlet NSTextField* textFieldPageUrl;
 }
 
 @property (assign) IBOutlet NSWindow *window;
-- (IBAction) downloadVideo;
 
 @end

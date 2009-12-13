@@ -16,9 +16,5 @@
 	// Insert code here to initialize your application 
 }
 
-- (IBAction)downloadVideo
-{
-    
-}
 
 @end

@@ -11,9 +11,12 @@
 
 @implementation YouTubeVideo
 
-- (void)initWithPageUrl: (NSString*)url
+- (YouTubeVideo*)initWithPageUrl: (NSString*)url
 {
+    [super init];
+    pageUrl = [NSString stringWithString: url];
     
+    return self;
 }
 
 - (NSString*)findVideoLink
@@ -23,7 +26,7 @@
 
 - (void)downloadVideo
 {
-    
+    NSLog(@"downloadVideo: %@", pageUrl);
 }
 
 @end

@@ -10,10 +10,10 @@
 
 
 @interface YouTubeVideo : NSObject {
-
+    NSString* pageUrl;
 }
 
-- (void)initWithPageUrl: (NSString*)url;
+- (YouTubeVideo*)initWithPageUrl: (NSString*)url;
 - (NSString*)findVideoLink;
 - (void)downloadVideo;
 

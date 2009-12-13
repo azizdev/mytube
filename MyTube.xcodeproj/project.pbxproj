@@ -13,6 +13,7 @@
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		CDE1982510D3DAB000977FA0 /* YouTubeVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE1982410D3DAB000977FA0 /* YouTubeVideo.m */; };
+		CDE1986A10D3E64C00977FA0 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE1986910D3E64C00977FA0 /* AppController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,8 @@
 		8D1107320486CEB800E47090 /* MyTube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTube.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDE1982310D3DAB000977FA0 /* YouTubeVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouTubeVideo.h; sourceTree = "<group>"; };
 		CDE1982410D3DAB000977FA0 /* YouTubeVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YouTubeVideo.m; sourceTree = "<group>"; };
+		CDE1986810D3E64C00977FA0 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		CDE1986910D3E64C00977FA0 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +54,8 @@
 				256AC3D90F4B6AC300CF3369 /* MyTubeAppDelegate.m */,
 				CDE1982310D3DAB000977FA0 /* YouTubeVideo.h */,
 				CDE1982410D3DAB000977FA0 /* YouTubeVideo.m */,
+				CDE1986810D3E64C00977FA0 /* AppController.h */,
+				CDE1986910D3E64C00977FA0 /* AppController.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -179,6 +184,7 @@
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				256AC3DA0F4B6AC300CF3369 /* MyTubeAppDelegate.m in Sources */,
 				CDE1982510D3DAB000977FA0 /* YouTubeVideo.m in Sources */,
+				CDE1986A10D3E64C00977FA0 /* AppController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
